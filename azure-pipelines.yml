@@ -46,3 +46,12 @@ jobs:
       packageApp: false
       buildForSimulator: true
       runNugetRestore: false
+
+- job: RunTests
+  displayName: "Run unit tests"
+  steps:
+  - task: DotNetCoreCLI@2
+    inputs:
+      command: 'test'
+      projects: 'StendhalTest/StendhalTest.csproj'
+      configuration: '$(buildConfiguration)'
