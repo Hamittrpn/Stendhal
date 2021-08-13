@@ -64,5 +64,7 @@ namespace Stendhal.Client.mobile.ViewModels
                     }));
             }
         }
+
+        // Test Pipeline
     }
 }
