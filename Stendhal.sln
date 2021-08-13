@@ -9,11 +9,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stendhal.Client.mobile.Andr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stendhal.Client.mobile.iOS", "Stendhal.Client.mobile\Stendhal.Client.mobile.iOS\Stendhal.Client.mobile.iOS.csproj", "{2CCC2924-6F62-4B6C-920C-BDA6BBEA538D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stendhal.Client.mobile", "Stendhal.Client.mobile\Stendhal.Client.mobile\Stendhal.Client.mobile.csproj", "{C9AA6785-6D45-4F3D-9D6F-74B0818A9128}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stendhal.Client.mobile", "Stendhal.Client.mobile\Stendhal.Client.mobile\Stendhal.Client.mobile.csproj", "{C9AA6785-6D45-4F3D-9D6F-74B0818A9128}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "base", "base", "{33BDDAD1-8644-4E51-A952-824D99818814}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stendhal.Client.mobilebase", "Stendhal.Client.mobilebase\Stendhal.Client.mobilebase.csproj", "{4EB561D2-43AA-4A73-BC20-F084CE2E1316}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stendhal.Client.mobilebase", "Stendhal.Client.mobilebase\Stendhal.Client.mobilebase.csproj", "{4EB561D2-43AA-4A73-BC20-F084CE2E1316}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StendhalTest", "StendhalTest\StendhalTest.csproj", "{CD48A83E-D78E-42D0-A2A0-A0177259FA54}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -77,6 +79,18 @@ Global
 		{4EB561D2-43AA-4A73-BC20-F084CE2E1316}.Release|iPhone.Build.0 = Release|Any CPU
 		{4EB561D2-43AA-4A73-BC20-F084CE2E1316}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
 		{4EB561D2-43AA-4A73-BC20-F084CE2E1316}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{CD48A83E-D78E-42D0-A2A0-A0177259FA54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD48A83E-D78E-42D0-A2A0-A0177259FA54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD48A83E-D78E-42D0-A2A0-A0177259FA54}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{CD48A83E-D78E-42D0-A2A0-A0177259FA54}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{CD48A83E-D78E-42D0-A2A0-A0177259FA54}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{CD48A83E-D78E-42D0-A2A0-A0177259FA54}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{CD48A83E-D78E-42D0-A2A0-A0177259FA54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD48A83E-D78E-42D0-A2A0-A0177259FA54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD48A83E-D78E-42D0-A2A0-A0177259FA54}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{CD48A83E-D78E-42D0-A2A0-A0177259FA54}.Release|iPhone.Build.0 = Release|Any CPU
+		{CD48A83E-D78E-42D0-A2A0-A0177259FA54}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{CD48A83E-D78E-42D0-A2A0-A0177259FA54}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
